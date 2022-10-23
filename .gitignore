@@ -1,6 +1,6 @@
 .idea
 /.idea/
-**/target/
+**/out/
 ### IntelliJ IDEA ###
 *.iws
 *.iml
