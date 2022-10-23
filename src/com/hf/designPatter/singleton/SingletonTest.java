@@ -5,7 +5,7 @@ package com.hf.designPatter.singleton;
  * @description
  * @date 2022/10/23 18:16
  */
-public class Test {
+public class SingletonTest {
 
     public static void main(String[] args) {
         // 饿汉式
