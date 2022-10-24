@@ -30,8 +30,12 @@ public class ObserverTest {
         ObserverForDoubleColor observerForDoubleColor = new ObserverForDoubleColor();
         com.hf.designPatter.observer.javaClass.Observer1 observer1 =
                 new com.hf.designPatter.observer.javaClass.Observer1();
+        com.hf.designPatter.observer.javaClass.Observer2 observer2 =
+                new com.hf.designPatter.observer.javaClass.Observer2();
         observer1.registerSubject(observerForSSQ);
         observer1.registerSubject(observerForDoubleColor);
+        observer2.registerSubject(observerForSSQ);
+        observer2.registerSubject(observerForDoubleColor);
 
         observerForSSQ.setMsg("1,2,3,4,5,6,7");
         observerForDoubleColor.setMsg("4,3,2,5,7,3,4");

@@ -26,13 +26,15 @@ public class Observer1 implements Observer {
     @Override
     public void update(Observable o, Object arg) {
         if (o instanceof ObserverForSSQ) {
-            ObserverForSSQ observer = (ObserverForSSQ)o;
-            System.out.printf("Observer1 SSQ开奖-%s, 中奖了！%n",observer.getMsg());
+            ObserverForSSQ observer = (ObserverForSSQ) o;
+//            System.out.printf("Observer1 SSQ开奖-%s, 中奖了！%n", observer.getMsg());
+            System.out.printf("Observer1 SSQ开奖-%s, 中奖了！%n", arg.toString());
         }
 
         if (o instanceof ObserverForDoubleColor) {
-            ObserverForDoubleColor observer = (ObserverForDoubleColor)o;
-            System.out.printf("Observer1 DoubleColor开奖-%s, 中奖了！%n",observer.getMsg());
+            ObserverForDoubleColor observer = (ObserverForDoubleColor) o;
+//            System.out.printf("Observer1 DoubleColor开奖-%s, 中奖了！%n", observer.getMsg());
+            System.out.printf("Observer1 DoubleColor开奖-%s, 中奖了！%n", arg.toString());
         }
     }
 }
