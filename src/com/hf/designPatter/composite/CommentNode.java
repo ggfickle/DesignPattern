@@ -1,6 +1,7 @@
 package com.hf.designPatter.composite;
 
-import com.sun.tools.javac.util.List;
+
+import java.util.List;
 
 public class CommentNode implements Node{
 
