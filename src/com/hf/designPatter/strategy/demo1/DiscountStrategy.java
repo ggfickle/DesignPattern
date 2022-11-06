@@ -1,4 +1,4 @@
-package com.hf.designPatter.strategy;
+package com.hf.designPatter.strategy.demo1;
 
 import java.math.BigDecimal;
 

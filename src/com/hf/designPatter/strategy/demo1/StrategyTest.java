@@ -1,6 +1,4 @@
-package com.hf.designPatter.strategy;
-
-import sun.applet.Main;
+package com.hf.designPatter.strategy.demo1;
 
 import java.math.BigDecimal;
 
