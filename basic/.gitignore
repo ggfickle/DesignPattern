@@ -1,0 +1,10 @@
+.idea
+/.idea/
+**/out/
+### IntelliJ IDEA ###
+*.iws
+*.iml
+*.ipr
+logs
+!**/log/
+!**/log/**
